@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Degradê azul */
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+}
+
+.container{
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 350px;
+
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+    color:#203a43;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom:5px;
+    font-weight: bold;
+    color:#203a43;
+}
+
+input, select{
+    padding:10px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    transition:0.3s;
+}
+
+/* Hover nos inputs */
+input:hover, select:hover{
+    border-color:#1e90ff;
+}
+
+/* Focus */
+input:focus, select:focus{
+    outline:none;
+    border-color:#1e90ff;
+    box-shadow:0 0 6px rgba(30,144,255,0.4);
+}
+
+/* Botão */
+
+button{
+    padding:12px;
+    border:none;
+    border-radius:8px;
+
+    background:linear-gradient(135deg,#2193b0,#6dd5ed);
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+
+    cursor:pointer;
+    transition:0.3s;
+}
+
+/* Hover botão */
+
+button:hover{
+    transform:scale(1.05);
+    box-shadow:0px 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Preview da bandeira */
+
+.flagPreviewContainer{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+}
+
+#flagPreview{
+    width:120px;
+    border-radius:8px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+}
+.btnVoltar{
+    position:fixed;
+    top:20px;
+    left:20px;
+
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+
+    padding:8px 14px;
+
+    background:rgba(255,255,255,0.2);
+    color:white;
+
+    text-decoration:none;
+    font-weight:bold;
+
+    border-radius:8px;
+
+    backdrop-filter: blur(6px);
+
+    transition:0.3s;
+}
+
+.btnVoltar:hover{
+    background:rgba(255,255,255,0.35);
+    transform:translateX(-3px);
+}

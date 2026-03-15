@@ -1,4 +1,4 @@
-import { getSelecoes, deleteSelecao } from '../../services/selecoes.service.js'
+import { getSelecoes, deleteSelecao } from '../../../services/selecoes.service.js'
 
 
 let selecoescontainer = document.querySelector("#selecoescontainer") // aq ele cria a variavel selecoescontainer e seleciona o elemento do html aq no caso do id selecoescontainer
@@ -28,20 +28,24 @@ function renderjogadores(lista){  //essa função serve para mostrar jogadores n
 function renderselecoes(lista){
     lista.forEach(selecao =>{
         selecoescontainer.innerHTML += `
-        <div>
-            <div>
+        <div class = "cardSelecao">
+            <div class = "logoContainer">
                 <img src="${selecao.logo}" alt="">
             </div>
-            <div>
+            <div class = "info">
                 <span>Nome:</span>
                 <span>${selecao.nome}</span>
             </div>
-            <div>
+            <div class = "info">
                 <span>Grupo:</span>
                 <span>${selecao.grupo}</span>
             </div>
-            <div>
-                <button>Ver Mais</button>
+            <div class = "info">
+                <span>Técnico:</span>
+                <span>${selecao.tecnico}</span>
+            </div>
+            <div class = "botoes">
+                <button >Ver Mais</button>
                 <button data-id="${selecao.id}" id="btnDel">Deletar</button>
             </div>
 

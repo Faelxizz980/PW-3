@@ -1,4 +1,4 @@
-import { getSelecoes, deleteSelecao } from '../../../services/selecoes.service.js'
+import { getSelecoes, deleteSelecao,getSelecaoById, putSelecao } from '../../../services/selecoes.service.js'
 
 
 let selecoescontainer = document.querySelector("#selecoescontainer") // aq ele cria a variavel selecoescontainer e seleciona o elemento do html aq no caso do id selecoescontainer
@@ -46,31 +46,40 @@ function renderselecoes(lista){
             </div>
             <div class = "botoes">
                 <button >Ver Mais</button>
-                <button data-id="${selecao.id}" id="btnDel">Deletar</button>
+                <button class="btnEditar" data-id="${selecao.id}">Editar</button>
+                <button class="btnDel" data-id="${selecao.id}">Deletar</button>
             </div>
 
         </div>`
     })
 }
 
-selecoescontainer.addEventListener("click", async(e) =>{
-    e.preventDefault();
+selecoescontainer.addEventListener("click", async (e) => {
 
-    const button = e.target.closest("#btnDel")
+ 
+    const btnDel = e.target.closest(".btnDel");
 
-    if(!button) return;
+    if (btnDel) {
+        const id = btnDel.dataset.id;
 
-    const id = button.dataset.id;
+        const confirmar = confirm("Certeza que deseja excluir essa seleção?");
+        if (!confirmar) return;
 
-    const confirmar = confirm("Certeza que deseja excluir essa seleção?");
+        await delselecao(id);
+        location.reload();
+        return;
+    }
 
-    if(!confirmar) return;
+    const btnEditar = e.target.closest(".btnEditar");
 
-    await delselecao(id);
+    if (btnEditar) {
+        const id = btnEditar.dataset.id;
 
-    location.reload();
+       window.location.href = `../editar/index.html?id=${id}`;
+        return;
+    }
 
-})
+});
 
 
 async function init() {

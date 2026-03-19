@@ -20,5 +20,8 @@ const patchSelecao = async (id, data) => {
 const deleteSelecao = async (id) => {
     return await DELETE(`${routes.selecoes}/${id}`);
 };
+const getSelecaoById = async (id) => {
+    return await GET(`${routes.selecoes}/${id}`);
+};
 
-export { getSelecoes, postSelecao, putSelecao, patchSelecao, deleteSelecao };
+export { getSelecoes, postSelecao, putSelecao, patchSelecao, deleteSelecao, getSelecaoById };

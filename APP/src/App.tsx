@@ -9,7 +9,6 @@ function App() {
 
   return (
     <>
-
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
@@ -25,7 +24,7 @@ function App() {
         <button
           className="counter"
           onClick={() => setCount((count) => count + 1)}
-          >
+        >
           Count is {count}
         </button>
       </section>
@@ -67,7 +66,7 @@ function App() {
                   className="button-icon"
                   role="presentation"
                   aria-hidden="true"
-                  >
+                >
                   <use href="/icons.svg#github-icon"></use>
                 </svg>
                 GitHub
@@ -79,7 +78,7 @@ function App() {
                   className="button-icon"
                   role="presentation"
                   aria-hidden="true"
-                  >
+                >
                   <use href="/icons.svg#discord-icon"></use>
                 </svg>
                 Discord
@@ -91,7 +90,7 @@ function App() {
                   className="button-icon"
                   role="presentation"
                   aria-hidden="true"
-                  >
+                >
                   <use href="/icons.svg#x-icon"></use>
                 </svg>
                 X.com
@@ -103,7 +102,7 @@ function App() {
                   className="button-icon"
                   role="presentation"
                   aria-hidden="true"
-                  >
+                >
                   <use href="/icons.svg#bluesky-icon"></use>
                 </svg>
                 Bluesky

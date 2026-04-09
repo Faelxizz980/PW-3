@@ -7,5 +7,5 @@ export interface Veiculo{
     valor:number;
     ano:number;
     ano_modelo:number;
-    fotos:string[]
+    fotos:string []
 }

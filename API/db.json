@@ -36,9 +36,9 @@
     { "id": 10, "nome": "Luxo", "icone": "luxo.png" }
   ],
   "veiculos": [
-    { "id": 1, "Anunciantes_id": 1, "Fabricantes_id": 1, "modelo": "Corolla", "descricao": "Carro confortável e econômico", "valor": 85000, "ano": 2020, "ano_modelo": 2021, "fotos": ["corolla1.jpg", "corolla2.jpg"] },
-    { "id": 2, "Anunciantes_id": 2, "Fabricantes_id": 2, "modelo": "Civic", "descricao": "Sedan esportivo e confiável", "valor": 95000, "ano": 2019, "ano_modelo": 2020, "fotos": ["civic1.jpg", "civic2.jpg"] },
-    { "id": 3, "Anunciantes_id": 1, "Fabricantes_id": 3, "modelo": "EcoSport", "descricao": "SUV compacto ideal para cidade", "valor": 70000, "ano": 2018, "ano_modelo": 2019, "fotos": ["ecosport1.jpg", "ecosport2.jpg"] },
+    { "id": 1, "Anunciantes_id": 1, "Fabricantes_id": 1, "modelo": "Corolla", "descricao": "Carro confortável e econômico", "valor": 85000, "ano": 2020, "ano_modelo": 2021, "fotos": ["https://grandbrasil.com.br/wp-content/uploads/2019/09/CorollaXei2024.png"] },
+    { "id": 2, "Anunciantes_id": 2, "Fabricantes_id": 2, "modelo": "Civic", "descricao": "Sedan esportivo e confiável", "valor": 95000, "ano": 2019, "ano_modelo": 2020, "fotos": ["https://www.fmdt.info/img/honda-models/2018-honda-civic-lx-32-white.png", "civic2.jpg"] },
+    { "id": 3, "Anunciantes_id": 1, "Fabricantes_id": 3, "modelo": "EcoSport", "descricao": "SUV compacto ideal para cidade", "valor": 70000, "ano": 2018, "ano_modelo": 2019, "fotos": ["https://cdn.autopapo.com.br/carro/ford/ecosport-16-freestyle-flex-2017/destaque-v1.png","ecosport2.jpg"] },
     { "id": 4, "Anunciantes_id": 3, "Fabricantes_id": 4, "modelo": "Onix", "descricao": "Hatchback moderno e eficiente", "valor": 60000, "ano": 2021, "ano_modelo": 2022, "fotos": ["onix1.jpg", "onix2.jpg"] },
     { "id": 5, "Anunciantes_id": 4, "Fabricantes_id": 5, "modelo": "Golf", "descricao": "Sedan premium com tecnologia avançada", "valor": 120000, "ano": 2022, "ano_modelo": 2023, "fotos": ["golf1.jpg", "golf2.jpg"] },
     { "id": 6, "Anunciantes_id": 5, "Fabricantes_id": 6, "modelo": "X3", "descricao": "SUV luxuoso e potente", "valor": 250000, "ano": 2020, "ano_modelo": 2021, "fotos": ["x3_1.jpg", "x3_2.jpg"] },

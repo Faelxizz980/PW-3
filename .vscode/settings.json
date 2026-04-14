@@ -6,7 +6,6 @@
     "APP/node_modules":true,
     "API/node_modules":true,
     "APP/.gitignore":true,
-    "APP/vite.config.ts":true,
     "APP/tsconfig.json":true,
     "APP/tsconfig.app.json":true,   
     "APP/tsconfig.spec.json":true,

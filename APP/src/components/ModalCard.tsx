@@ -9,7 +9,7 @@ interface Props {
     onClose: () => void;
 }
 
-export function VeiculoModal({ veiculo, fabricante, anunciante, onClose }: Props) {
+export function VeiculoModal({ veiculo, anunciante, onClose }: Props) {
   return (
     <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
 

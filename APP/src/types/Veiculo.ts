@@ -9,3 +9,4 @@ export interface Veiculo{
     ano_modelo:number;
     fotos:string []
 }
+

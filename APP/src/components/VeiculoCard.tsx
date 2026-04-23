@@ -2,17 +2,18 @@ import type {Veiculo} from "../types/Veiculo";
 
 interface Props{
     veiculo: Veiculo;
+    onClick: () => void;
 }
 
-export function VeiculoCard({ veiculo }: Props) {
+export function VeiculoCard({ veiculo, onClick }: Props) {
   return (
-    <div className="bg-gray-500 flex flex-col rounded-lg hover:scale-102 delay-100 shadow-xl shadow-gray-700/50">
+    <div onClick={onClick} className="bg-gray-500 flex flex-col rounded-lg hover:scale-102 delay-100 shadow-xl shadow-gray-700/50">
       
       {/* Container fixo para a imagem */}
       <div className="w-full h-48 flex items-center justify-center">
         <img 
           src={veiculo.fotos[0]} 
-          className="object-contain w-full h-full"
+          className="object-contain w-full aspect-[2/1]"
         />
       </div>
 
@@ -20,6 +21,7 @@ export function VeiculoCard({ veiculo }: Props) {
       <div className="p-4 flex flex-col gap-1">
         <h2 className="text-gray-100 font-bold text-lg">{veiculo.modelo}</h2>
         <p className="text-gray-100">{veiculo.descricao}</p>
+        <p className="text-gray-100">{veiculo.Fabricantes_id}</p>
         <p className="text-gray-100">
           Ano: {veiculo.ano} / {veiculo.ano_modelo}
         </p>

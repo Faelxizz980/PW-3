@@ -41,19 +41,15 @@
   { "id": 3, "Anunciantes_id": 1, "Fabricantes_id": 3, "modelo": "Lamborghini Huracán", "descricao": "Supercarro com design agressivo e potente", "valor": 3200000, "ano": 2018, "ano_modelo": 2019, "fotos": ["https://png.pngtree.com/png-vector/20240614/ourmid/pngtree-lamborghini-huracan-luxury-stylish-sport-car-on-dark-black-background-png-image_12693402.png"] },
   { "id": 4, "Anunciantes_id": 3, "Fabricantes_id": 4, "modelo": "Porsche 911", "descricao": "Esportivo clássico com tecnologia avançada", "valor": 950000, "ano": 2021, "ano_modelo": 2022, "fotos": ["https://png.pngtree.com/png-vector/20240325/ourmid/pngtree-car-isolated-on-white-background-porsche-911-png-image_12235239.png"] },
   { "id": 5, "Anunciantes_id": 4, "Fabricantes_id": 5, "modelo": "Volkswagen Golf", "descricao": "Hatch compacto e versátil para o dia a dia", "valor": 120000, "ano": 2020, "ano_modelo": 2021, "fotos": ["https://s3-sa-east-1.amazonaws.com/oextra.net/2018/11/24/5bf8b88161e80.png"] },
-  { "id": 6, "Anunciantes_id": 5, "Fabricantes_id": 6, "modelo": "BMW M3", "descricao": "Sedan esportivo de alto desempenho", "valor": 450000, "ano": 2019, "ano_modelo": 2020, "fotos": ["https://static.vecteezy.com/system/resources/thumbnails/048/595/977/small/modern-car-isolated-on-background-3d-rendering-illustration-png.png"] },
+  { "id": 6, "Anunciantes_id": 5, "Fabricantes_id": 6, "modelo": "BMW M3", "descricao": "Sedan esportivo de alto desempenho", "valor": 450000, "ano": 2019, "ano_modelo": 2020, "fotos": ["https://production.autoforce.com/uploads/version/profile_image/10419/model_main_webp_comprar-competition_d914780934.png.webp"] },
   { "id": 7, "Anunciantes_id": 6, "Fabricantes_id": 1, "modelo": "BMW Série 3", "descricao": "Sedan esportivo premium", "valor": 320000, "ano": 2019, "ano_modelo": 2020, "fotos": ["https://production.autoforce.com/uploads/version/profile_image/11901/comprar-combustao_fb490045aa.png"] },
-  { "id": 8, "Anunciantes_id": 7, "Fabricantes_id": 2, "modelo": "Ferrari Roma", "descricao": "Gran turismo luxuoso e elegante", "valor": 2800000, "ano": 2021, "ano_modelo": 2022, "fotos": ["https://www.pngarts.com/files/8/Ferrari-Roma-PNG-Image-Background.png"] },
+  { "id": 8, "Anunciantes_id": 7, "Fabricantes_id": 2, "modelo": "Ferrari Roma", "descricao": "Gran turismo luxuoso e elegante", "valor": 2800000, "ano": 2021, "ano_modelo": 2022, "fotos": ["https://imgd.aeplcdn.com/664x374/n/cw/ec/97963/roma-exterior-right-front-three-quarter-3.png?isig=0&q=80"] },
   { "id": 9, "Anunciantes_id": 8, "Fabricantes_id": 3, "modelo": "Lamborghini Urus", "descricao": "SUV esportivo extremamente potente", "valor": 3500000, "ano": 2021, "ano_modelo": 2022, "fotos": ["https://png.pngtree.com/png-vector/20250423/ourmid/pngtree-black-lamborghini-urus-luxury-suv-png-image_16072615.png"] },
   { "id": 10, "Anunciantes_id": 9, "Fabricantes_id": 4, "modelo": "Porsche Cayenne", "descricao": "SUV esportivo de alto desempenho", "valor": 650000, "ano": 2020, "ano_modelo": 2021, "fotos": ["https://static.vecteezy.com/system/resources/previews/059/867/580/non_2x/a-white-porsche-macan-suv-on-a-transparent-background-free-png.png"] },
   { "id": 11, "Anunciantes_id": 1, "Fabricantes_id": 6, "modelo": "Jaguar XE", "descricao": "Sedan luxuoso com ótimo desempenho", "valor": 310000, "ano": 2021, "ano_modelo": 2022, "fotos": ["https://img2.icarros.com/dbimg/imgmodelo/0/2657_1.jpg"] },
-  { "id": 12, "Anunciantes_id": 2, "Fabricantes_id": 1, "modelo": "BMW X5", "descricao": "SUV premium espaçoso", "valor": 480000, "ano": 2020, "ano_modelo": 2021, "fotos": ["https://storage.googleapis.com/dealersites-content/dealersites/vehicles/models/bmw/foto_model_890_1345.webp"] },
-  { "id": 13, "Anunciantes_id": 3, "Fabricantes_id": 2, "modelo": "Ferrari SF90", "descricao": "Superesportivo híbrido extremamente potente", "valor": 4200000, "ano": 2022, "ano_modelo": 2023, "fotos": ["https://www.pngarts.com/files/8/Ferrari-SF90-Stradale-PNG-Image-Background.png"] },
-  { "id": 14, "Anunciantes_id": 4, "Fabricantes_id": 3, "modelo": "Porsche Panamera", "descricao": "Sedan esportivo luxuoso", "valor": 780000, "ano": 2020, "ano_modelo": 2021, "fotos": ["https://cdn.porsche.com/panamera.png"] },
-  { "id": 15, "Anunciantes_id": 5, "Fabricantes_id": 4, "modelo": "Mitsubishi Eclipse Cross", "descricao": "SUV moderno e tecnológico", "valor": 210000, "ano": 2022, "ano_modelo": 2023, "fotos": ["https://cdn.mitsubishi.com/eclipse.png"] },
-  { "id": 16, "Anunciantes_id": 6, "Fabricantes_id": 5, "modelo": "Jaguar F-Type", "descricao": "Esportivo elegante e potente", "valor": 720000, "ano": 2019, "ano_modelo": 2020, "fotos": ["https://cdn.jaguar.com/ftype.png"] },
-  { "id": 17, "Anunciantes_id": 7, "Fabricantes_id": 6, "modelo": "BMW X6", "descricao": "SUV esportivo com design agressivo", "valor": 540000, "ano": 2021, "ano_modelo": 2022, "fotos": ["https://cdn.bmw.com/x6.png"] },
-  { "id": 18, "Anunciantes_id": 8, "Fabricantes_id": 1, "modelo": "Ferrari Portofino", "descricao": "Conversível luxuoso e esportivo", "valor": 2900000, "ano": 2020, "ano_modelo": 2021, "fotos": ["https://cdn.ferrari.com/portofino.png"] }
+  { "id": 12, "Anunciantes_id": 2, "Fabricantes_id": 1, "modelo": "BMW X5", "descricao": "SUV premium espaçoso", "valor": 480000, "ano": 2020, "ano_modelo": 2021, "fotos": ["https://platform.cstatic-images.com/xxlarge/in/v2/stock_photos/b22fcb1c-78a8-494d-944e-56ff09ab5aab/92218d8b-698b-487b-a2de-2cbe3be00502.png"] },
+  { "id": 13, "Anunciantes_id": 3, "Fabricantes_id": 2, "modelo": "Ferrari SF90", "descricao": "Superesportivo híbrido extremamente potente", "valor": 4200000, "ano": 2022, "ano_modelo": 2023, "fotos": ["https://cdn.wheel-size.com/automobile/body/ferrari-sf90-stradale-2019-2021-1606211392.6015837.webp"] },
+  { "id": 14, "Anunciantes_id": 4, "Fabricantes_id": 3, "modelo": "Porsche Panamera", "descricao": "Sedan esportivo luxuoso", "valor": 780000, "ano": 2020, "ano_modelo": 2021, "fotos": ["https://www.webmotors.com.br/imagens/prod/347514/PORSCHE_PANAMERA_2.9_V6_EHYBRID_4_EXECUTIVE_PDK_34751412192014441.png"] }
 ],
   "veiculo_categorias": [
     { "Veiculos_id": 1, "Categorias_id": 2 },
@@ -69,18 +65,7 @@
     { "Veiculos_id": 11, "Categorias_id": 4 },
     { "Veiculos_id": 12, "Categorias_id": 1 },
     { "Veiculos_id": 13, "Categorias_id": 4 },
-    { "Veiculos_id": 14, "Categorias_id": 4 },
-    { "Veiculos_id": 15, "Categorias_id": 1 },
-    { "Veiculos_id": 16, "Categorias_id": 2 },
-    { "Veiculos_id": 17, "Categorias_id": 1 },
-    { "Veiculos_id": 18, "Categorias_id": 1 },
-    { "Veiculos_id": 19, "Categorias_id": 1 },
-    { "Veiculos_id": 20, "Categorias_id": 1 },
-    { "Veiculos_id": 5, "Categorias_id": 10 },
-    { "Veiculos_id": 6, "Categorias_id": 10 },
-    { "Veiculos_id": 7, "Categorias_id": 10 },
-    { "Veiculos_id": 16, "Categorias_id": 9 },
-    { "Veiculos_id": 17, "Categorias_id": 10 }
+    { "Veiculos_id": 14, "Categorias_id": 4 }
   ],
   "admins": [
     { "email": "admin@email.com", "senha": "admin123" }

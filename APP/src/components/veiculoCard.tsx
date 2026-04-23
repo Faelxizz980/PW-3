@@ -8,7 +8,7 @@ export function VeiculoCard({ veiculo }: Props) {
   return (
     <div className="bg-gray-500 flex flex-col rounded-lg hover:scale-102 delay-100 shadow-xl shadow-gray-700/50">
       
-      {/* Container fixo para a imagem */}
+      
       <div className="w-full h-48 flex items-center justify-center">
         <img 
           src={veiculo.fotos[0]} 
